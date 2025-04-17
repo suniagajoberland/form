@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Gestor de Contactos</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Mis Contactos</h1>
+        <a href="../views/index.html" class="btn-add">+ Agregar Contacto</a>
+      </header>
+
+      <div class="search-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Buscar por número de teléfono..."
+          id="searchInput"
+        />
+      </div>
+
+      <div class="contacts-grid" id="contactsContainer">
+        <!-- Los contactos se cargarán aquí dinámicamente -->
+      </div>
+    </div>
+    <script src="contact.js"></script>
+  </body>
+</html>

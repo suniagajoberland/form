@@ -1,0 +1,28 @@
+{
+  "name": "proyecto_ws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suniagajoberland/form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suniagajoberland/form/issues"
+  },
+  "homepage": "https://github.com/suniagajoberland/form#readme",
+  "description": "",
+  "dependencies": {
+    "@libsql/client": "^0.15.3",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
